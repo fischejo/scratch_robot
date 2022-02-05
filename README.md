@@ -26,6 +26,14 @@ SUBSYSTEMS=="usb", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60" ATTRS{devpa
 and run `sudo sh -c "udevadm control --reload-rules && udevadm trigger"`
 
 
+## Install Intel Realsense Package
+
+```bash
+sudo apt-get install ros-$ROS_DISTRO-realsense2-camera
+```
+
+
+
 # Source
 
 ```bash
