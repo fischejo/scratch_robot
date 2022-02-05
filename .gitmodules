@@ -1,3 +1,6 @@
 [submodule "src/micro_ros_setup"]
 	path = src/micro_ros_setup
 	url = https://github.com/micro-ROS/micro_ros_setup.git
+[submodule "src/rplidar_ros2"]
+	path = src/rplidar_ros2
+	url = https://github.com/tiiuae/rplidar_ros2.git

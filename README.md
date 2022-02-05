@@ -37,7 +37,8 @@ source install/local_setup.bash
 # Launch
 
 ```bash
-ros2 launch scratch scratch_init_launch.py
+ros2 launch scratch scratch.py
+ros2 launch scratch scratch_view.py
 ```
 
 
