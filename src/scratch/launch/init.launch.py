@@ -6,7 +6,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     return LaunchDescription([
-        IncludeLaunchDescription(PythonLaunchDescriptionSource([ThisLaunchFileDir(), '/lidar.launch.py'])),
+        IncludeLaunchDescription(PythonLaunchDescriptionSource([ThisLaunchFileDir(), '/rplidar.launch.py'])),
         IncludeLaunchDescription(PythonLaunchDescriptionSource([ThisLaunchFileDir(), '/agent.launch.py'])),
         IncludeLaunchDescription(PythonLaunchDescriptionSource([ThisLaunchFileDir(), '/d435.launch.py'])),     
     ])

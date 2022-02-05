@@ -10,6 +10,6 @@ def generate_launch_description():
     return LaunchDescription([
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource([launch_dir, '/rs_launch.py']),
-            launch_arguments=[("enable_poincloud", "true")]                
+            launch_arguments=[("enable_pointcloud", "true")]
         )
     ])
