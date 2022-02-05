@@ -11,8 +11,7 @@ def generate_launch_description():
             executable='rplidar',
             output='screen',
             parameters=[
-                path.join(get_package_share_directory('scratch'), 'config',
-                          'rplidar_a3.yaml'),
+                path.join(get_package_share_directory('scratch'), 'config', 'rplidar_a3.yaml'),
             ],
         ),
     ])

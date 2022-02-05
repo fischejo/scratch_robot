@@ -32,6 +32,14 @@ and run `sudo sh -c "udevadm control --reload-rules && udevadm trigger"`
 sudo apt-get install ros-$ROS_DISTRO-realsense2-camera
 ```
 
+# Install XBox Controller
+
+```bash
+sudo apt install ros-$ROS_DISTRO-joy-linux
+sudo apt install ros-$ROS_DISTRO-teleop-twist-joy
+sudo usermod -aG input $USER
+sudo reboot
+```
 
 
 # Source
