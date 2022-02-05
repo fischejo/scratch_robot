@@ -4,3 +4,4 @@ install
 log
 src/uros
 TOOLING.md
+__pycache__
